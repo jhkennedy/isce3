@@ -1,6 +1,12 @@
 [project]
 name = "isce3"
 dynamic = ["version"]
+dependencies = [
+  'pysolid',
+  'snaphu',
+  'raider',
+  'pyre',
+]
 
 [build-system]
 requires = ["scikit-build-core"]
